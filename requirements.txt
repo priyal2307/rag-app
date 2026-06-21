@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-groq
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+pypdf
+python-multipart
+sentence-transformers
+chromadb
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
