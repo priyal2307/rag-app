@@ -3,7 +3,7 @@
 A full-stack AI-powered document Q&A system built with RAG (Retrieval Augmented Generation).
 
 ## 🌐 Live Demo
-- **Frontend:** https://askmypdf.netlify.app
+- **Frontend:** https://askdoc-ai.netlify.app
 - **Backend API:** https://rag-app-1-zds8.onrender.com/docs
 
 ## 🚀 What it does
@@ -40,29 +40,17 @@ Answer displayed in React UI
 
 ## 📁 Project Structure
 rag-app/
-
 ├── app/
-
 │   ├── main.py          # FastAPI endpoints + CORS
-
 │   ├── ingest.py        # PDF loading + embeddings
-
 │   └── chain.py         # RAG chain with Groq LLM
-
 ├── frontend/
-
 │   ├── src/
-
 │   │   ├── App.jsx      # Main React component
-
 │   │   └── App.css      # Styles
-
 │   └── package.json
-
 ├── Dockerfile
-
 ├── docker-compose.yml
-
 └── requirements.txt
 
 ## 🔧 Run Locally
