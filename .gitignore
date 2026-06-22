@@ -4,5 +4,5 @@ chroma_db/
 __pycache__/
 *.pyc
 documents/
-*.bin
-*.pt
+frontend/node_modules/
+frontend/dist/
