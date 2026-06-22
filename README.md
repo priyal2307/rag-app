@@ -24,33 +24,26 @@ Upload any PDF document and ask questions about it. The AI answers based only on
 | Frontend Deploy | Netlify |
 
 ## 🏗️ Architecture
+
+```
 User uploads PDF
-
-↓
-
+      ↓
 Split into chunks (500 chars)
-
-↓
-
+      ↓
 Embed chunks → store in ChromaDB
-
-↓
-
+      ↓
 User asks a question
-
-↓
-
+      ↓
 Embed question → find similar chunks
-
-↓
-
+      ↓
 Send chunks + question to Llama 3.3
-
-↓
-
+      ↓
 Answer displayed in React UI
+```
 
 ## 📁 Project Structure
+
+```
 rag-app/
 ├── app/
 │   ├── main.py          # FastAPI endpoints + CORS
@@ -64,6 +57,7 @@ rag-app/
 ├── Dockerfile
 ├── docker-compose.yml
 └── requirements.txt
+```
 
 ## 🔧 Run Locally
 
