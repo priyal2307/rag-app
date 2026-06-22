@@ -7,6 +7,8 @@ import shutil, os
 
 load_dotenv()
 
+os.makedirs("documents", exist_ok=True)
+
 app = FastAPI(title="RAG Document Q&A")
 
 app.add_middleware(
